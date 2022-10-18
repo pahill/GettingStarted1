@@ -5,6 +5,6 @@ class Greeting {
 
     fun greeting(): String {
         return "Guess what it is! > ${platform.name.reversed()}!" +
-                "\nThere are only ${daysUntilNewYear()} days left until New Year! 🎅🏼 "
+                "\nThere are only ${daysUntilNewYear()} days left until New Year! 🎆 "
     }
 }
